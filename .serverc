@@ -1,0 +1,9 @@
+{
+    "port": 8090,
+    "open": "true",
+    "options": {
+        "config": "./webpack.config.js",
+        "content": "./dist"
+    }
+  }
+  

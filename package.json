@@ -1,0 +1,30 @@
+{
+  "name": "jss",
+  "version": "1.0.0",
+  "description": "Personal Javascript Playground",
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "webpack-serve",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kaseopea/js_sandbox.git"
+  },
+  "author": "Vitali Rusau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kaseopea/js_sandbox/issues"
+  },
+  "homepage": "https://github.com/kaseopea/js_sandbox#readme",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "html-loader": "^0.5.5",
+    "html-webpack-plugin": "^3.2.0",
+    "webpack": "^4.16.3",
+    "webpack-serve": "^2.0.2"
+  }
+}
