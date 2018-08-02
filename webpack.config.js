@@ -13,9 +13,7 @@ const IndexPagePlugin = new HtmlWebpackPlugin({
 /* ---------------------------------- MAIN CONFIG ---------------------------------- */
 module.exports = {
     mode: 'development',
-    entry: {
-        app: './src/js/index.js'
-    },
+    entry: ['babel-polyfill', './src/js/index.js'],
     output: {
         path: OPTIONS.distPath,
         filename: '[name]-[hash].js'
