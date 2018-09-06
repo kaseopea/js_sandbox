@@ -1,2 +1,3 @@
 import '../index.html';
-import './async-await/async-await';
+import './prototypes/prototypes';
+// import './prototypes/prototypes_without_constructor';
