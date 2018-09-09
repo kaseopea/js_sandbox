@@ -9,13 +9,13 @@ Person.prototype.greet = function() {
 };
 
 /* Sandbox */
-const alex = new Person('Alex');
+const alex = new Person("Alex");
 const alexProto = Object.getPrototypeOf(alex);
 const personProto = Object.getPrototypeOf(Person);
 
 console.warn(alex);
-console.log('alex.constructor: ', alex.constructor);
-console.log('Person constructor: ', Person.constructor);
+console.log("alex.constructor: ", alex.constructor);
+console.log("Person constructor: ", Person.constructor);
 // console.warn(`Alex has .name  [${alex.hasOwnProperty('name')}]`);
 // console.warn(`Alex has .greet [${alex.hasOwnProperty('greet')}]`);
 // console.warn(`[alexProto === Person.prototype] ${alexProto === Person.prototype}`);
@@ -25,7 +25,7 @@ console.log('Person constructor: ', Person.constructor);
 // alex.greet();
 
 // console.log('Prototype of Object.prototype', Object.getPrototypeOf(Object.prototype) === null);
-console.log('================================================================');
+console.log("================================================================");
 
 /* Simple function */
 function testFunc() {
