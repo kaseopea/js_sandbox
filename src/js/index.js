@@ -1,7 +1,7 @@
 import "../index.html";
 
 // ASYNC-AWAIT
-// import "./async-await/async-await";
+import "./async-await/async-await";
 
 // PROTOTYPES
 // import "./prototypes/prototypes";
@@ -10,4 +10,4 @@ import "../index.html";
 
 // PROMISES
 // import "./promises/promises";
-import "./promises/promises-race";
+// import "./promises/promises-race";

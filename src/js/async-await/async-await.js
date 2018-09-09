@@ -1,11 +1,32 @@
-const func1 = async() => {
-   return setTimeout(() => {
+const FILES_LIST = [
+  "diplom.doc",
+  "funny.jpg",
+  "secret.txt",
+  "pict.png",
+  "icon.svg"
+];
+function readFile(fileName) {
+  setTimeout(() => console.warn(fileName), 2000 * Math.random());
+}
 
-        return 1;
+async function readFiles(files) {
+  for (const file of files) {
+    await readFile(file);
+  }
+}
 
-    }, 3000);
+// readFiles(FILES_LIST).then(data => {
+//   if (data) {
+//     console.warn(data);
+//   }
+// });
+
+const readFilesReduce = function(files) {
+  return files.reduce((p, file) => {
+    return p.then(() => readFile(file));
+  }, Promise.resolve()); // initial
 };
 
-func1();
-
-console.log('lox');
+readFilesReduce(FILES_LIST).then(data => {
+  console.log(data);
+});
