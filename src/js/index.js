@@ -1,7 +1,7 @@
 import "../index.html";
 
 // ASYNC-AWAIT
-import "./async-await/async-await";
+// import "./async-await/async-await";
 
 // PROTOTYPES
 // import "./prototypes/prototypes";
@@ -11,3 +11,6 @@ import "./async-await/async-await";
 // PROMISES
 // import "./promises/promises";
 // import "./promises/promises-race";
+
+// Refactoring samples
+import "./refactoring/isActive";
