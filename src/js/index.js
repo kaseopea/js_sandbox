@@ -13,4 +13,7 @@ import "../index.html";
 // import "./promises/promises-race";
 
 // Refactoring samples
-import "./refactoring/isActive";
+// import "./refactoring/isActive";
+
+// ES6 Proxy
+import "./proxy/proxy";
